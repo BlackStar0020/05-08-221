@@ -10,6 +10,7 @@ namespace _05_08_2021
     {
           static void Main(string[] args)
           {
+//////////1
               Console.Write("Vvedite pervuy peremennu:");
               int A = Convert.ToInt32(Console.ReadLine());
               Console.Write("Vvedite vtoruy  peremennu:");
@@ -34,9 +35,7 @@ namespace _05_08_2021
                 Console.WriteLine($"{B}");
               }
               Console.ReadKey();
-          }
-       /* static void Main(string[] args)
-        {
+          //////////2
             Console.Write("PERVOE CHISLO: ");
             string operanD1 = Console.ReadLine();
             int operand1 = Int32.Parse(operanD1);
@@ -87,9 +86,7 @@ namespace _05_08_2021
             Console.ReadKey();
             
 
-        }*/
-       /*static  void Main(string[] args)
-        {
+        /////////3
             byte b = Convert.ToByte(Console.ReadLine());
             if (b<15)
             {
@@ -108,6 +105,6 @@ namespace _05_08_2021
                 Console.WriteLine("[50-100]");
             }
             Console.ReadKey();
-        }*/
+        }
     }
 }
